@@ -1,0 +1,7 @@
+.bg-purple {
+    background-color: rgba(132, 0, 255, 1);
+}
+
+.top {
+    z-index: 2;
+}

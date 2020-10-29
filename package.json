@@ -1,0 +1,22 @@
+{
+    "name": "volantiniapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "backend": "nodemon index.js",
+        "frontend": "npm run start --prefix client",
+        "dev": "concurrently \"npm run backend \" \"npm run frontend\""
+    },
+    "author": "Daniele Asteggiante",
+    "license": "ISC",
+    "dependencies": {
+        "csv-parser": "^2.3.3",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.6"
+    },
+    "devDependencies": {
+        "concurrently": "^5.3.0"
+    }
+}
